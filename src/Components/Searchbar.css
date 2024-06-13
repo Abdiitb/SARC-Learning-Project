@@ -1,0 +1,15 @@
+.searchBar{
+    border-radius: 50px;
+    border: 2px solid gray;
+    width: 47vw;
+    margin: 10px 0 auto auto;
+    padding: 5px 20px;
+}
+
+@media screen and (max-width: 1240px) {
+    .searchBar {
+        width: 90vw;
+        margin: 5px;
+        font-size: 15px;
+    }
+}

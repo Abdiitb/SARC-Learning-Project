@@ -1,0 +1,17 @@
+.selectedList {
+    width: 50vw;
+    margin: 5px auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgba(34, 34, 34);
+    /* max-height: 55vh; */
+    overflow-y: hidden;
+}
+
+@media screen and (max-width: 1240px) {
+    .selectedList {
+        width: 90vw;
+        margin: 5px;
+        font-size: 10px;
+    }
+}

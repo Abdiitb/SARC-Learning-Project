@@ -1,0 +1,14 @@
+.searchTitle{
+    width: 50vw;
+    margin: auto;
+  
+}
+
+@media screen and (max-width: 1240px) {
+    .searchTitle {
+        width: 90vw;
+        margin: auto;
+        font-size: 10px;
+        
+    }
+}

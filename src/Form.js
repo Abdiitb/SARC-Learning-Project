@@ -14,7 +14,7 @@ function Form() {
         />
         <h1 className="heading">YEARBOOK</h1>
       </header>
-      <div className='subhead'><h2>print your beautiful memories</h2></div>
+      <div className='subhead'><h2>Hold your memories in your hand</h2></div>
       <FormInputs/>
     </div>
   );

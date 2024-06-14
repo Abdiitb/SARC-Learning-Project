@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { Component, useState } from 'react';
 import './FormInputs.css';
 import axios from 'axios';
+
 
 function FormInputs() {
   const[data ,setData]=useState({
@@ -36,6 +37,18 @@ function FormInputs() {
       const response = await axios.post('https://your-api-endpoint.com/submit', data);
       console.log(response.data);
       setSuccess(true);
+      setData({
+        fullname: '',
+        email: '',
+        roll: '',
+        phone: '',
+        ldap: '',
+        department: '',
+        degree: '',
+        ncopies: '',
+        typeofcopy: '',
+        comments: '',
+      });
     } catch (error) {
       setError('Failed to submit the form. Please try again.');
     } finally {
@@ -88,6 +101,8 @@ function FormInputs() {
                 <option value='2'>2</option>
                 <option value='more than 2'>More than 2(write in comments below)</option>
              </select>
+        </div>
+        <div className='form-input'>
         </div>
         <div className='form-input'>
             <label htmlFor='comments'>Any comments</label>

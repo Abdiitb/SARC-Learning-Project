@@ -1,0 +1,141 @@
+
+  .form-container {
+    background-color:black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0 4px 8px rgb(155,82,227);
+    max-width: 700px;
+    box-sizing: border-box;
+    margin: 15px;
+    color:rgb(155,82,227);
+  }
+  
+  .form-input {
+    margin-bottom: 20px;
+  }
+  
+  .form-input label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(155,82,227);
+  }
+  
+  .form-input input[type="text"],
+  .form-input input[type="email"],
+  .form-input input[type="phone"],
+  .form-input select,
+  .form-input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .form-input input[type="text"]:focus,
+  .form-input input[type="email"]:focus,
+  .form-input input[type="phone"]:focus,
+  .form-input select:focus,
+  .form-input textarea:focus {
+    border-color:rgb(155,82,227);
+    outline: none;
+  }
+  
+
+  
+  .form-input textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 15px;
+    }
+    
+    .form-input {
+      margin-bottom: 15px;
+    }
+    
+    .form-input label {
+      margin-bottom: 6px;
+    }
+    
+    .form-input input[type="text"],
+    .form-input input[type="email"],
+    .form-input input[type="phone"],
+    .form-input select,
+    .form-input textarea {
+      padding: 8px;
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .form-container {
+      padding: 10px;
+    }
+    
+    .form-input {
+      margin-bottom: 10px;
+    }
+    
+    .form-input label {
+      margin-bottom: 5px;
+    }
+    
+    .form-input input[type="text"],
+    .form-input input[type="email"],
+    .form-input input[type="phone"],
+    .form-input select,
+    .form-input textarea {
+      padding: 6px;
+      font-size: 12px;
+    }
+  }
+  .submit-button {
+    background-color:rgb(155,82,227);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: block;
+    margin: auto;
+  }
+  
+  .submit-button:disabled {
+    background-color: #9E9E9E;
+    cursor: not-allowed;
+  }
+  
+  .submit-button:hover:not(:disabled) {
+    background-color:#934caf;
+  }
+  
+  /* Error and Success Messages*/ 
+  .error-message,
+  .success-message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .success-message {
+    background-color: #4CAF50;
+    color: white;
+  }
+  

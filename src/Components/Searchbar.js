@@ -1,7 +1,8 @@
 import React, { useState, useContext, useEffect } from 'react'
 import axios from 'axios'
 import SearchContext from '../Contexts/SearchContext'
-import './Searchbar.css'
+// import './Searchbar.css'
+import '../FormInputs.css'
 
 
 export default function Searchbar() {
@@ -54,10 +55,9 @@ export default function Searchbar() {
     }
 
     return (
-        <div>
+        <div className='form-input'>
             <input
                 type="text"
-                className="searchBar"
                 id=""
                 name="liststudents"
                 placeholder="Search..."

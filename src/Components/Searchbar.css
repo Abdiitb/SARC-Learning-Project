@@ -1,15 +1,24 @@
 .searchBar{
-    border-radius: 50px;
-    border: 2px solid gray;
-    width: 47vw;
-    margin: 10px 0 auto auto;
-    padding: 5px 20px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: black;
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 600px) {
     .searchBar {
         width: 90vw;
         margin: 5px;
         font-size: 15px;
     }
+    .form-input {
+        margin-bottom: 15px;
+      }
+      
+      .form-input label {
+        margin-bottom: 6px;
+      }
 }

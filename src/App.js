@@ -1,13 +1,11 @@
-import './App.css';
-import FormSearch from './Components/FormSearch';
+import Form from "./Form";
 import SearchState from './Contexts/SearchState';
 
 function App() {
   return (
     <SearchState>
-    
     <div className="App">
-      <FormSearch />      
+     <Form/>
     </div>
     </SearchState>
   );

@@ -16,7 +16,7 @@ export default function SelectedOption({ option }) {
     return (
       <div className="optionSelected">
         <li key={option.id}>
-          <img src={'https://yearbook.sarc-iitb.org' + option.profile_image} alt="" width={100} height={80}/>
+          <img src={'https://yearbook.sarc-iitb.org' + option.profile_image} alt="" width={60} height={60}/>
           <span>{option.display + ' ' + option.department + ' (' + option.hostel + ')'} </span>
           <motion.button
            whileHover={{ scale: 1.1 }}

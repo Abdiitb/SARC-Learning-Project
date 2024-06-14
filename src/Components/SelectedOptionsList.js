@@ -9,7 +9,7 @@ export default function SelectedOptionsList() {
 
     return (
         <>
-        <div>People Added</div>
+        <div className="selectedList listHeading">People Added</div>
         <div className="selectedList">
             
             <ul>

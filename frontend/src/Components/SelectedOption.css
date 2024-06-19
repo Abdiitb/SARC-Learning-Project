@@ -1,0 +1,54 @@
+.optionSelected {
+    color: aliceblue;
+    padding: 1px 0;
+    background-color: rgb(34, 34, 34);
+    
+} 
+
+.optionSelected li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    /* padding: 0 50px; */
+    list-style: none;
+    margin: 10px 0;
+}
+
+.deptHostel {
+    color: violet;
+    font-weight: 200;
+}
+
+.optionSelected li button {
+    margin-right: 40px;
+    background-color: red;
+    color: aliceblue;
+}
+
+/* .optionSelected li button:hover {
+    background-color: violet;
+} */
+
+.optionSelected li img {
+   border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .optionSelected li {
+        
+            font-size: 12px;
+            /* padding: 5px 0; */
+            /* gap: auto; */
+            text-align: center;
+            /* max-width: 200px; */
+            justify-content: center;
+            gap: 40px;
+            /* height: 50px; */
+    }
+
+    .optionSelected li button {
+        font-size: 12px;
+        width: 80px;
+    }
+}

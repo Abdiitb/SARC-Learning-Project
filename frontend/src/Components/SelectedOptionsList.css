@@ -1,0 +1,22 @@
+.selectedList {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(155,82,227);
+    background-color: rgb(34, 34, 34);
+}
+
+.listHeading {
+    background-color: rgb(7, 7, 7);
+    margin-top: 8px;
+    max-width: 700px;
+}
+
+@media screen and (max-width: 600px) {
+    .selectedList {
+        margin-bottom: 6px;
+        padding: 8px;
+        font-size: 13px;
+        width: 90vw;
+    }
+}

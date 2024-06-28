@@ -8,7 +8,7 @@
     max-width: 700px;
     box-sizing: border-box;
     margin: 15px;
-    color:rgb(155,82,227);
+    color:linear-gradient(to right, #6a11cb, #2575fc);
   }
   
   .form-input {

@@ -59,7 +59,7 @@ export default function NameSearch() {
                 name="liststudents"
                 placeholder="Search your name"
                 value={list.displayName}
-                onChange={(e) => handleChange(e.target.value)} />
+                onChange={(e) => handleChange(e.target.value)} required/>
         </div>
     )
 }

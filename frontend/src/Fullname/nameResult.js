@@ -13,7 +13,8 @@ export default function NameResult({ result, data, setData }) {
     setData({
       ...data,
       fullname : result.display,
-      yearbookId : result.id
+      yearbookId : result.id,
+      profile_image:result.profile_image
     })
     selectedOptions.setDisplayName(result.display)
     selectedOptions.setName("");

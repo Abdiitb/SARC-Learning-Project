@@ -6,7 +6,33 @@
     align-items: center;
     color:rgb(155,82,227);
   }
-  
+.yearbook-preview {
+    margin-top: 20px;
+    background: linear-gradient(to right, #6a11cb,rgb(155,82,227));
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+    box-shadow: 0 2px 10px #efefef;
+    margin-bottom: 20px;
+}
+
+.yearbook-preview p {
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
+.yearbook-preview a {
+    color: white;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: color 0.3s;
+    margin-left: 120px;
+}
+
+.yearbook-preview a:hover {
+    color: #ddd;
+}
   /* Style for the header */
   .header {
     background-color:rgb(155,82,227);

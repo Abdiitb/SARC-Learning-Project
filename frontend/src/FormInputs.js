@@ -18,6 +18,7 @@ function FormInputs() {
     department: '',
     degree: '',
     address: '',
+    pincode:'',
     ncopies: '1',
     typeofcopy: 'complete',
     otherSelectedPeople: [],
@@ -56,6 +57,7 @@ function FormInputs() {
     department: '',
     degree: '',
     address: '',
+    pincode:'',
     ncopies: '1',
     typeofcopy: 'complete',
     otherSelectedPeople: [],
@@ -107,6 +109,10 @@ function FormInputs() {
       <div className='form-input'>
         <label htmlFor='address' className='required'>Address where you want your yearbook to be delieverd</label>
         <input type='text' id='address' name='address' value={data.address} placeholder='your address' onChange={handleChange} required />
+      </div>
+      <div className='form-input'>
+        <label htmlFor='pincode' className='required'>Pincode of above mentioned address</label>
+        <input type='text' id='pincode' name='pincode' value={data.pincode} placeholder='enter pincode' onChange={handleChange} required />
       </div>
       <div className='form-input'>
         <label htmlFor='type of  copy' className='required'>Type  of physical copy of Yearbook you would like to have</label>
